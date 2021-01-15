@@ -15006,6 +15006,14 @@ var __vue_render__$6 = function __vue_render__() {
           "column": props.column
         })];
       }
+    }, {
+      key: "column-filter",
+      fn: function fn(props) {
+        return [_vm._t("column-filter", null, {
+          "column": props.column,
+          "updateFilters": props.updateFilters
+        })];
+      }
     }], null, true)
   })], 1) : _vm._e()]), _vm._v(" "), _c('div', {
     "class": {
